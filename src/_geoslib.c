@@ -5675,7 +5675,7 @@ static int __Pyx_modinit_type_init_code(void) {
   /*--- Type init code ---*/
   __pyx_ptype_8_geoslib_ndarray = __Pyx_ImportType("numpy", "ndarray", sizeof(PyArrayObject), 0); if (unlikely(!__pyx_ptype_8_geoslib_ndarray)) __PYX_ERR(0, 13, __pyx_L1_error)
   if (PyType_Ready(&__pyx_type_8_geoslib_BaseGeometry) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
-  __pyx_type_8_geoslib_BaseGeometry.tp_print = 0;
+  //__pyx_type_8_geoslib_BaseGeometry.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_8_geoslib_BaseGeometry.tp_dictoffset && __pyx_type_8_geoslib_BaseGeometry.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_8_geoslib_BaseGeometry.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
@@ -5683,7 +5683,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_ptype_8_geoslib_BaseGeometry = &__pyx_type_8_geoslib_BaseGeometry;
   __pyx_type_8_geoslib_Polygon.tp_base = __pyx_ptype_8_geoslib_BaseGeometry;
   if (PyType_Ready(&__pyx_type_8_geoslib_Polygon) < 0) __PYX_ERR(0, 329, __pyx_L1_error)
-  __pyx_type_8_geoslib_Polygon.tp_print = 0;
+  //__pyx_type_8_geoslib_Polygon.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_8_geoslib_Polygon.tp_dictoffset && __pyx_type_8_geoslib_Polygon.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_8_geoslib_Polygon.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
@@ -5691,7 +5691,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_ptype_8_geoslib_Polygon = &__pyx_type_8_geoslib_Polygon;
   __pyx_type_8_geoslib_LineString.tp_base = __pyx_ptype_8_geoslib_BaseGeometry;
   if (PyType_Ready(&__pyx_type_8_geoslib_LineString) < 0) __PYX_ERR(0, 387, __pyx_L1_error)
-  __pyx_type_8_geoslib_LineString.tp_print = 0;
+  //__pyx_type_8_geoslib_LineString.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_8_geoslib_LineString.tp_dictoffset && __pyx_type_8_geoslib_LineString.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_8_geoslib_LineString.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
@@ -5699,7 +5699,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_ptype_8_geoslib_LineString = &__pyx_type_8_geoslib_LineString;
   __pyx_type_8_geoslib_Point.tp_base = __pyx_ptype_8_geoslib_BaseGeometry;
   if (PyType_Ready(&__pyx_type_8_geoslib_Point) < 0) __PYX_ERR(0, 419, __pyx_L1_error)
-  __pyx_type_8_geoslib_Point.tp_print = 0;
+  //__pyx_type_8_geoslib_Point.tp_print = 0;
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_8_geoslib_Point.tp_dictoffset && __pyx_type_8_geoslib_Point.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_8_geoslib_Point.tp_getattro = __Pyx_PyObject_GenericGetAttr;
   }
